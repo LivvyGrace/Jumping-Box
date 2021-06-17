@@ -72,8 +72,8 @@ function draw() {
     
         //write code to set velocityX and velocityY of ball as 0
 
-           if (ball.isTouching(block1) || (ball.isTouching(block2) || (ball.isTouching(block3) || (ball.isTouching(block4) {
-            ball.setVelocity = 0);
+           if (ball.isTouching(block1) || ball.isTouching(block2) || ball.isTouching(block3) || ball.isTouching(block4)) {
+            ball.setVelocity = 0;
 
            }           
 
